@@ -1,2 +1,12 @@
-<h1>Welcom to Outside Hours.</h1>
+<h1>Welcome to Outside Hours.</h1>
+
+import calendar
+
+# Prompt user for the year and month
+year = int(input("Enter year: "))
+month = int(input("Enter month: "))
+
+# Generate the calendar for the given month and year
+cal = calendar.TextCalendar()
+print(cal.formatmonth(year, month))
 
